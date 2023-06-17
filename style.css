@@ -123,3 +123,20 @@ a{
     margin-left: -160px;
     border-radius: 50%;
 }
+.rating-sec{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://i.ibb.co/2gnJw9p/rating-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 40px 0;
+    color: white;
+}
+.rating-sec div{
+    margin: 0 30px;
+    text-align: center;
+}
+.rating-sec>div>p{
+    line-height: 3rem;
+}
