@@ -17,7 +17,7 @@ nav>ul{
 }
 li{
     list-style: none;
-    margin-left: 3rem;
+    margin-left: 2.5rem;
 }
 nav a{
     color: white;
@@ -76,4 +76,50 @@ a{
     color: white;
     background-color: salmon;
     margin: 30px 0;
+}
+.about-sec{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-img{
+    margin-right: 100px;
+    height: 600px;
+    width: 500px;
+}
+.about-details-sec{
+    padding-right: 100px;
+}
+.about-title{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
+.about-banner-text{
+    color: gray;
+    font-weight: lighter;
+    font-size: small;
+    margin: 20px 0;
+    line-height: 1.5rem;
+}
+.special-img-sec{
+    display: flex;
+}
+.special-img-sec img{
+    height: 130px;
+    margin-right: 20px;
+}
+.special-title{
+    margin: 20px 0;
+}
+.about-img-sec{
+    position: relative;
+}
+.play-btn{
+    background: white;
+    border: none;
+    position: absolute;
+    top: 40%;
+    margin-left: -160px;
+    border-radius: 50%;
 }
