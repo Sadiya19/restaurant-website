@@ -140,3 +140,58 @@ a{
 .rating-sec>div>p{
     line-height: 3rem;
 }
+.menu-title{
+    text-align: center;
+}
+.menu-title>h3{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.menu-type{
+    /* background-color: aqua; */
+}
+.menu img{
+    height: 70px;
+    border-radius: 50%;
+}
+.menu-item{
+    display: flex;
+}
+.menu-details{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.chef-title{
+    text-align: center;
+}
+.chef-photo-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+.chef-photo-sec img{
+    margin-right: 20px;
+    height: 280px;
+    width: 230px;
+}
+.chef-logo{
+    color: red;
+    font-family:'Dancing Script', cursive ;
+}
+.chef-photo-sec h3{
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.chef-photo-sec h5{
+    color: grey;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
